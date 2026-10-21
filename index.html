@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css?v=tech-mobile-v4" />
+    <link rel="stylesheet" href="style.css?v=tech-mobile-v5" />
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -72,7 +72,7 @@
             <div class="timeline-meta"><p>DEC 2023 — PRESENT</p><span>Pune, India</span></div>
             <div class="timeline-content">
               <p class="company">Venkateswara Hatcheries Private Limited</p><h3>Software Developer — Xamarin &amp; .NET MAUI</h3>
-              <ul><li>Delivered an end-to-end Farm Management application for real-time field operations.</li><li>Implemented two-step authentication for an industrial application using password-based sign-in followed by a one-time verification code delivered through WhatsApp.</li><li>Led legacy Xamarin-to-.NET MAUI migration and refactored XAML and platform-specific code.</li><li>Built offline-first workflows, barcode and HID scanning, validation, and background sync.</li><li>Owned REST integration and the Google Play build, test, deployment, and hotfix lifecycle.</li></ul>
+              <ul><li>Delivered an end-to-end Farm Management application for real-time field operations.</li><li>Implemented two-step authentication for an industrial application using password-based sign-in followed by a one-time verification code delivered through WhatsApp.</li><li>Led legacy Xamarin-to-.NET MAUI migration and refactored XAML and platform-specific code.</li><li>Built offline-first workflows, barcode and HID scanning, validation, and background sync.</li><li>Owned Google Play Console builds, testing, staged deployment, production releases and hotfixes.</li><li>Implemented application version checks and mandatory-update handling so field users remain on the latest supported production release.</li></ul>
             </div>
           </article>
           <article class="timeline-item">
@@ -93,10 +93,10 @@
         </div>
 
         <div class="migration-grid reveal">
-          <article><span>01 · FRESH DEVELOPMENT</span><h3>BW Uniformity</h3><p>Designed and developed this standalone .NET MAUI Blazor application from scratch for field devices, including a password-and-OTP authentication flow and keyboard-stable screens across different mobile sizes.</p><ul><li>Independent application architecture and development</li><li>Two-step sign-in with WhatsApp-delivered OTP</li><li>Responsive login and verification UI</li></ul></article>
-          <article><span>02 · MIGRATION</span><h3>Parent Production</h3><p>Migrated and strengthened an offline-first production workflow with safer local persistence, transactional master replacement and resilient synchronization.</p><ul><li>Division-scoped master data in SQLite</li><li>Atomic download and upload handling</li><li>Device, version and zone-wise QA checks</li></ul></article>
-          <article><span>03 · MIGRATION</span><h3>CBF</h3><p>Migrated and stabilized a legacy field workflow in .NET MAUI while preserving valid local state through temporary connectivity and service failures.</p><ul><li>Reliable master-data refresh and upload</li><li>Lifecycle-aware device and version validation</li><li>Retry handling and user-safe errors</li></ul></article>
-          <article><span>04 · MIGRATION</span><h3>Delivery Challan</h3><p>Migrated the Android application and modernized its release pipeline, resolving build, resource and packaging issues for current devices.</p><ul><li>Debug APK and release AAB configuration</li><li>Build and resource issue resolution</li><li>Physical-device install and launch validation</li></ul></article>
+          <article><span>01 · FRESH DEVELOPMENT</span><h3>BW Uniformity</h3><p>Designed and developed this standalone .NET MAUI Blazor application from scratch for field devices, including a password-and-OTP authentication flow and keyboard-stable screens across different mobile sizes.</p><ul><li>Independent application architecture and development</li><li>Two-step sign-in with WhatsApp-delivered OTP</li><li>Responsive login, verification and version-update UI</li></ul></article>
+          <article><span>02 · MIGRATION</span><h3>Parent Production</h3><p>Migrated and strengthened an offline-first production workflow with safer local persistence, transactional master replacement and resilient synchronization.</p><ul><li>Division-scoped master data in SQLite</li><li>Atomic download and upload handling</li><li>Lifecycle-aware version checks and zone-wise QA</li></ul></article>
+          <article><span>03 · MIGRATION</span><h3>CBF</h3><p>Migrated and stabilized a legacy field workflow in .NET MAUI while preserving valid local state through temporary connectivity and service failures.</p><ul><li>Reliable master-data refresh and upload</li><li>Lifecycle-aware device and version validation</li><li>Mandatory Play Store update flow</li></ul></article>
+          <article><span>04 · MIGRATION</span><h3>Delivery Challan</h3><p>Migrated the Android application and modernized its release pipeline, resolving build, resource and packaging issues for current devices.</p><ul><li>Debug APK and release AAB configuration</li><li>Google Play production deployment</li><li>Physical-device install and launch validation</li></ul></article>
         </div>
 
         <div class="migration-story reveal">
@@ -104,7 +104,7 @@
             <p class="section-index">DEVELOPMENT &amp; MIGRATION CHALLENGES</p>
             <h3>Build a new product while safely modernizing established workflows.</h3>
             <p>BW Uniformity required fresh standalone architecture and development. CBF, Parent Production and Delivery Challan required careful migration so familiar workflows remained stable while local data, connectivity handling, lifecycle behavior and Android releases became more reliable.</p>
-            <div class="outcome-list"><span>Offline data protected</span><span>Safer synchronization</span><span>Consistent device UX</span><span>Repeatable release flow</span></div>
+            <div class="outcome-list"><span>Offline data protected</span><span>Safer synchronization</span><span>Play Store rollout</span><span>Supported versions enforced</span></div>
           </div>
           <div class="migration-gallery" aria-label="Enterprise application screens with confidential data excluded">
             <figure class="migration-shot"><div class="device-shell"><span class="device-speaker" aria-hidden="true"></span><img src="assets/bw-uniformity-otp.png" alt="BW Uniformity one-time password verification screen" loading="lazy" width="1080" height="2400" /></div><figcaption><strong>BW Uniformity</strong><span>Secure OTP verification flow</span></figcaption></figure>
